@@ -1,0 +1,29 @@
+enter your choice:rock
+you chose: rock 
+computer chose: paper
+you lose! 
+enter your choice:rock            
+you chose: rock 
+computer chose: paper
+you lose! 
+enter your choice:paper
+you chose: paper 
+computer chose: scissor
+ you lose!
+enter your choice:scissor
+you chose: scissor 
+computer chose: scissor
+Draw!  
+enter your choice:scissor
+you chose: scissor 
+computer chose: rock
+ you lose! 
+enter your choice:paper
+you chose: paper 
+computer chose: scissor
+ you lose!
+enter your choice:rock
+you chose: rock 
+computer chose: rock
+Draw!  
+
