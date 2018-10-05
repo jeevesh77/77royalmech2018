@@ -1,0 +1,155 @@
+dl109@soetcse:~/jeevesh$ python3 tic.py
+1 | 2 | 3
+-----
+4 | 5 | 6
+-----
+7 | 8 | 9
+choose an available place:3
+Traceback (most recent call last):
+  File "tic.py", line 18, in <module>
+    if playerOneTurn:
+NameError: name 'playerOneTurn' is not defined
+dl109@soetcse:~/jeevesh$ python3 tic.py
+1 | 2 | 3
+-----
+4 | 5 | 6
+-----
+7 | 8 | 9
+choose an available place:2
+Traceback (most recent call last):
+  File "tic.py", line 18, in <module>
+    if playerOneTurn:
+NameError: name 'playerOneTurn' is not defined
+dl109@soetcse:~/jeevesh$ python3 tic.py
+1 | 2 | 3
+-----
+4 | 5 | 6
+-----
+7 | 8 | 9
+choose an available place:3
+1 | 2 | X
+-----
+4 | 5 | 6
+-----
+7 | 8 | 9
+choose an available place:
+1 | 2 | X
+-----
+4 | 5 | 6
+-----
+7 | 8 | 9
+choose an available place:4
+1 | 2 | X
+-----
+0 | 5 | 6
+-----
+7 | 8 | 9
+choose an available place:6
+1 | 2 | X
+-----
+0 | 5 | X
+-----
+7 | 8 | 9
+choose an available place:5
+1 | 2 | X
+-----
+0 | 0 | X
+-----
+7 | 8 | 9
+choose an available place:9
+1 | 2 | X
+-----
+0 | 0 | X
+-----
+7 | 8 | X
+choose an available place:^Z
+[1]+  Stopped                 python3 tic.py
+dl109@soetcse:~/jeevesh$ python3 tic.py
+  File "tic.py", line 25
+    if(a[i]==a[i+1] and a[i]==a[i+2]):	
+                                      ^
+TabError: inconsistent use of tabs and spaces in indentation
+dl109@soetcse:~/jeevesh$ python3 tic.py
+1 | 2 | 3
+-----
+4 | 5 | 6
+-----
+7 | 8 | 9
+choose an available place:2
+1 | X | 3
+-----
+4 | 5 | 6
+-----
+7 | 8 | 9
+choose an available place:3
+1 | X | 0
+-----
+4 | 5 | 6
+-----
+7 | 8 | 9
+choose an available place:5
+1 | X | 0
+-----
+4 | X | 6
+-----
+7 | 8 | 9
+choose an available place:6
+1 | X | 0
+-----
+4 | X | 0
+-----
+7 | 8 | 9
+choose an available place:8
+Game Over...
+dl109@soetcse:~/jeevesh$ 1
+1: command not found
+dl109@soetcse:~/jeevesh$ 1
+1: command not found
+dl109@soetcse:~/jeevesh$ python3 tic.py
+1 | 2 | 3
+-----
+4 | 5 | 6
+-----
+7 | 8 | 9
+choose an available place:^Z      
+[2]+  Stopped                 python3 tic.py
+dl109@soetcse:~/jeevesh$ python3 tic.py
+1 | 2 | 3
+-----
+4 | 5 | 6
+-----
+7 | 8 | 9
+choose an available place:1
+X | 2 | 3
+-----
+4 | 5 | 6
+-----
+7 | 8 | 9
+choose an available place:4
+X | 2 | 3
+-----
+0 | 5 | 6
+-----
+7 | 8 | 9
+choose an available place:8
+X | 2 | 3
+-----
+0 | 5 | 6
+-----
+7 | X | 9
+choose an available place:5
+X | 2 | 3
+-----
+0 | 0 | 6
+-----
+7 | X | 9
+choose an available place:2
+X | X | 3
+-----
+0 | 0 | 6
+-----
+7 | X | 9
+choose an available place:6
+Game Over
+dl109@soetcse:~/jeevesh$ 
+
