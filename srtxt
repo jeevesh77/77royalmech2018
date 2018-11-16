@@ -1,0 +1,11 @@
+dl109@soetcse:~/jeevesh$ python3 sr.py
+The audio file contains:hello
+dl109@soetcse:~/jeevesh$ arecord dl1.wav
+Recording WAVE 'dl1.wav' : Unsigned 8 bit, Rate 8000 Hz, Mono
+^[[A^[[A^Z
+[4]+  Stopped                 arecord dl1.wav
+dl109@soetcse:~/jeevesh$ python3 sr.py
+The audio file contains:how are you
+dl109@soetcse:~/jeevesh$ ^C
+dl109@soetcse:~/jeevesh$ 
+
